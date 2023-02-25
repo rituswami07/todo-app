@@ -1,0 +1,151 @@
+.body {
+    display:flex;
+    margin:0;
+    padding: 0;
+    background-color: rgb(59, 55, 56);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: rgb(221, 188, 213);
+    text-align: center;
+}
+
+.top-heading {
+    margin: 40px;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(41, 41, 44);
+    border: solid 3px rgb(170, 209, 240);
+}
+
+.from {
+    width: 30%;
+    margin: 10px;
+    margin-left:5%;
+    border: solid 3px rgb(170, 209, 240);
+    border-radius: 5px;
+}
+
+.from-1 {
+    width:50%;
+    margin: 20px;
+    padding:10px;
+    margin-left: 5%;
+}
+
+.h1:hover {
+    background-color:rgb(204, 159, 224);
+    color: white;
+}
+
+.h1 {
+    margin: 20px;
+    color: white;
+    background-color:rgb(32, 28, 31);
+    width: 60%;
+    font-size:18px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-top: 6%;
+
+}
+
+
+.h2 {
+    color: white;
+    background-color:rgb(32, 28, 31);
+    width: 60%;
+    font-size:18px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-top: 6%;
+    margin-left: -3%;
+    padding: 10px;
+
+}
+
+.h3 {
+    color: white;
+    background-color:rgb(32, 28, 31);
+    width: 60%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-top: 6%;
+    padding: 10px;
+}
+
+.h4 {
+    color: white;
+    background-color:rgb(32, 28, 31);
+    width: 60%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-top: 5px;
+    padding: 10px;
+    float:left;
+    margin-left: 8%;
+    text-align: left;
+}
+
+.input {
+    color: white;
+    background-color:rgb(32, 28, 31);
+    width: 100%;
+    font-size: 18px;
+    margin-top: 6%;
+    margin-left: -10%;
+    
+}
+
+.btn {
+    background-color:rgb(38, 35, 39);
+    margin: 10px;
+    width: 10%;
+    padding: 10px;
+    color: rgb(223, 130, 215);
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn-1 {
+    background-color:rgb(38, 35, 39);
+    margin: 5px;
+    width: 12%;
+    padding: 10px;
+    color: rgb(223, 130, 215);
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn-2 {
+    background-color:rgb(38, 35, 39);
+    margin: 5px;
+    width: 12%;
+    padding: 10px;
+    color: rgb(223, 130, 215);
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: -95px;
+}
+
+
+.btn:hover {
+    background-color:rgb(219, 35, 173);
+    color: black;
+}
+
+.my-input {
+    font-size : 18px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.my-input::placeholder {
+    color: red;
+    font-style: italic;
+}
